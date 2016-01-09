@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="22ccb3b2-ca4d-4c1c-8221-5caac0e3bda2"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="f8cd4de6-cbdc-450c-973a-d66fc50141a0">
+      <body>Гравець 1</body>
+    </comment>
+    <comment
+      Id="9ddbbfa3-9dc0-4848-bf34-886581077197">
+      <body>Гравець 2
+</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="4ddf4211-22f9-4683-a117-c9fcf976bd1f"
+        name="Actor1"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="28e0fead-0f72-4f3a-9689-598a4a761b4a"
+            isDerived="false"
+            sourceEndRoleName="Actor1"
+            targetEndRoleName="Переглядати статистику"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="49111d7e-63ea-4724-8a9b-ff405a0b960c"
+              LastKnownName="Переглядати статистику"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c15e9770-c5e7-4995-b4b9-a4ed3685dd3f"
+                  name="Actor1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bb33afcc-87e0-4721-a92e-8cdafac32405"
+                  name="Переглядати статистику"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="bd31195e-afd9-4c7f-b810-9997b5bff552"
+            isDerived="false"
+            sourceEndRoleName="Actor1"
+            targetEndRoleName="Виконувати хід на полі"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="dc6ab758-11f3-4abe-90d1-b21adf1dc3b9"
+              LastKnownName="Виконувати хід на полі"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="62f65840-998b-422b-88bd-65ce83af4262"
+                  name="Actor1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c2fddb4d-8b91-4417-bb91-6b57ecd16ce2"
+                  name="Виконувати хід на полі"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b8069a5d-cbeb-483a-aa37-b4113baabdc6"
+            isDerived="false"
+            sourceEndRoleName="Actor1"
+            targetEndRoleName="Обнулити результати"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9798988f-6ee0-4051-9da0-eb0a821b5610"
+              LastKnownName="Обнулити результати"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f4a0c5ed-bc77-4679-8f4c-97ea3120ed3a"
+                  name="Actor1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="948eb8bb-5436-4496-ba63-eb76046b189f"
+                  name="Обнулити результати"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d60157a5-6bad-4565-b639-424090853d66"
+            isDerived="false"
+            sourceEndRoleName="Actor1"
+            targetEndRoleName="Вихід з гри"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="4a322f63-e8d4-40b9-8ce5-3337065e42d3"
+              LastKnownName="Вихід з гри"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6eae6fd3-37ab-4fb3-ae03-fb0f9e60fca6"
+                  name="Actor1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6b528321-e5ea-43dd-ba42-71e1ccee79a9"
+                  name="Вихід з гри"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c8f3536a-ee5a-41c2-9599-7875e9cb2310"
+            isDerived="false"
+            sourceEndRoleName="Actor1"
+            targetEndRoleName="Розпочинати гру"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9151fd09-d595-4715-a5a9-1213c1211bc1"
+              LastKnownName="Розпочинати гру"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="654d56de-a29f-4fbc-8099-e9bfabac9e9e"
+                  name="Actor1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2bd37064-adff-420e-b992-e0bb321d14c4"
+                  name="Розпочинати гру"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="7a28bb20-102c-445e-a6d5-0a5a541ebf8c"
+        name="Actor2"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="1f4aa81a-e4d3-4197-ba97-06243069402b"
+            isDerived="false"
+            sourceEndRoleName="Actor2"
+            targetEndRoleName="Переглядати статистику"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="49111d7e-63ea-4724-8a9b-ff405a0b960c"
+              LastKnownName="Переглядати статистику"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="55193596-cfe6-480f-afac-64c9f8467b1a"
+                  name="Actor2"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="91d91633-e6a5-46e9-9d6e-7d91c2b67340"
+                  name="Переглядати статистику"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c8a896cd-9f94-4d3e-99f3-9642cf581824"
+            isDerived="false"
+            sourceEndRoleName="Actor2"
+            targetEndRoleName="Виконувати хід на полі"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="dc6ab758-11f3-4abe-90d1-b21adf1dc3b9"
+              LastKnownName="Виконувати хід на полі"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8f57f25e-d3aa-4189-bbcb-74bffc30300a"
+                  name="Actor2"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="22ab9d07-1b55-4a4a-8164-17606c98d1da"
+                  name="Виконувати хід на полі"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="6fa1e2f9-c6f0-4dc8-add6-0d72fee42efe"
+            isDerived="false"
+            sourceEndRoleName="Actor2"
+            targetEndRoleName="Обнулити результати"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9798988f-6ee0-4051-9da0-eb0a821b5610"
+              LastKnownName="Обнулити результати"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5c5e9172-c0f2-429f-b2d4-327f43a80f0a"
+                  name="Actor2"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="230ba504-15db-4e68-a843-c636cc7af487"
+                  name="Обнулити результати"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="f777676b-689e-4d65-99ac-babce204e024"
+            isDerived="false"
+            sourceEndRoleName="Actor2"
+            targetEndRoleName="Вихід з гри"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="4a322f63-e8d4-40b9-8ce5-3337065e42d3"
+              LastKnownName="Вихід з гри"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="813596c2-5170-493b-b3f6-f71570b07346"
+                  name="Actor2"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fb520411-2d62-47d9-882b-c9964758720a"
+                  name="Вихід з гри"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="5f3521d0-280c-4772-aadb-c80a7e102469"
+            isDerived="false"
+            sourceEndRoleName="Actor2"
+            targetEndRoleName="Розпочинати гру"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9151fd09-d595-4715-a5a9-1213c1211bc1"
+              LastKnownName="Розпочинати гру"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2bb10a61-84f3-4b83-b011-9ad79a4e8141"
+                  name="Actor2"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5d00950f-40ee-486f-bcf9-cfd77b64a8dc"
+                  name="Розпочинати гру"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="49111d7e-63ea-4724-8a9b-ff405a0b960c"
+        name="Переглядати статистику"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="dc6ab758-11f3-4abe-90d1-b21adf1dc3b9"
+        name="Виконувати хід на полі"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9798988f-6ee0-4051-9da0-eb0a821b5610"
+        name="Обнулити результати"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4a322f63-e8d4-40b9-8ce5-3337065e42d3"
+        name="Вихід з гри"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9151fd09-d595-4715-a5a9-1213c1211bc1"
+        name="Розпочинати гру"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
